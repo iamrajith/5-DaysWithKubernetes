@@ -1,16 +1,18 @@
 # Day 1 Lab
 
+Let us Start
 
-
-## Let us Start,
- - Install docker on amazon linux
- * Verify the docker version
- + Docker search
+## Table of Contents
+ - 1. Install docker on amazon linux
+ - 2. Verify the docker version
+ - 3. Docker search
   Run a container
   Verify the container status with docker ps command with it's diffrent switches
   Stop and remove the container   
 
-## 2. Installing Docker on Amazon Linux instructions on how to install Docker on Amazon Linux:
+## 1. Install docker on amazon linux
+
+Instructions on how to install Docker on Amazon Linux:
 
 Update the installed packages and package cache on your instance
 ```bash
@@ -30,13 +32,17 @@ Add the ec2-user to the docker group so you can execute Docker commands without 
 usermod -a -G docker ec2-user
 ```
 
-## 3. Show the Docker Version, how to check the installed version of Docker:
+## 2. Verify the docker version
+
+Show the Docker Version, how to check the installed version of Docker:
 
 Check Docker version
 ```bash
 docker --version
 ```
-## 4.Search for Docker images on Docker Hub using the docker search command. For example, to search for Ubuntu images:
+## 3. Docker search
+
+Search for Docker images on Docker Hub using the docker search command. For example, to search for Ubuntu images:
 
 Search for Ubuntu images
 ```bash
