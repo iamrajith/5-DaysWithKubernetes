@@ -3,8 +3,8 @@
 Let us Start
 
 ## Table of Contents
- - 1. Install docker on amazon linux
- - 2. Verify the docker version
+ - [Install docker on amazon linux](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Day1-Lab.md#1-install-docker-on-amazon-linux)
+ - [2. Verify the docker version](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Day1-Lab.md#2-verify-the-docker-version)
  - 3. Docker search
   Run a container
   Verify the container status with docker ps command with it's diffrent switches
