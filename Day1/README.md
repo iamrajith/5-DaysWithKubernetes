@@ -3,9 +3,9 @@
 
 
 ## Let us Start,
-  Install docker on amazon linux
-  Verify the docker version
-  Docker search
+ - Install docker on amazon linux
+ * Verify the docker version
+ + Docker search
   Run a container
   Verify the container status with docker ps command with it's diffrent switches
   Stop and remove the container   
