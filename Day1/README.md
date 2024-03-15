@@ -2,7 +2,7 @@
 
 
 
-## Let us go through,
+## Let us Start,
   Install docker on amazon linux
   Verify the docker version
   Docker search
@@ -17,11 +17,11 @@ Update the installed packages and package cache on your instance
 yum update -y
 ```
 
-# Install the most recent Docker Community Edition package
+Install the most recent Docker Community Edition package
 ```bash
 amazon-linux-extras install docker`
 ```
-# Start the Docker service
+Start the Docker service
 ```bash
 service docker start
 ```
