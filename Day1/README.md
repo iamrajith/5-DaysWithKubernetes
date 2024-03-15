@@ -13,10 +13,10 @@ Let us go through,
 2. Installing Docker on Amazon Linux instructions on how to install Docker on Amazon Linux:
 
 # Update the installed packages and package cache on your instance
-yum update -y
+`# yum update -y`
 
 # Install the most recent Docker Community Edition package
-amazon-linux-extras install docker
+`#amazon-linux-extras install docker`
 
 # Start the Docker service
 service docker start
