@@ -9,7 +9,7 @@ Let us Start
 4. [Run a container](#how-to-run-a-container-from-an-image)
 5. [Listing Containers](#listing-containers)
 6. [Stop and remove the container](#6-how-to-stop-a-container)
-7. [7. Remove a container](#how-to-remove-a-container)
+7. [Remove a container](#how-to-remove-a-container)
 
 ## Install docker on amazon linux
 

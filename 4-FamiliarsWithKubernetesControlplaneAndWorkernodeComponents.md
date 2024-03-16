@@ -1,21 +1,17 @@
-Sure, here's the revised guide:
 
----
-
-# Kubernetes Control Plane and Worker Node Components Exploration
+# Explore Kubernetes Control Plane and Worker Node Components
 
 ## Table of Contents
 
 1. [Introduction](#introduction)
 2. [Listing All Control Plane Components](#listing-all-control-plane-components)
-3. [Exploring Individual Control Plane Components](#exploring-individual-control-plane-components)
-4. [Exploring Worker Node Components](#exploring-worker-node-components)
+3. [Explore Individual Control Plane Components](#exploring-individual-control-plane-components)
+4. [Explore Worker Node Components](#exploring-worker-node-components)
 5. [References](#references)
 
 ## Introduction
 
-This guide will help you understand the different control plane and worker node components in a Kubernetes cluster by executing basic `kubectl` commands.
-
+So far we have gone through the basics of docker. Let's dive into Kubernetes by exploring the control plane and worker node components.
 ## Listing All Control Plane Components
 
 The control plane components are typically running in the `kube-system` namespace. To list all the pods in the `kube-system` namespace, you can use the following command:
@@ -89,4 +85,4 @@ systemctl status containerd
 
 1. [Kubernetes Components](https://kubernetes.io/docs/concepts/overview/components/)
 2. [Kubernetes Namespaces](https://kubernetes.io/docs/concepts/overview/working-with-objects/namespaces/)
-3. [Rajith's Kubernetes Guide](http://rajith.in/kubernetes/)
+3. [Rajith's Kubernetes Guide](https://www.rajith.in/Kubernetes/)
