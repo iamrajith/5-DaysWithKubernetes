@@ -1,4 +1,4 @@
-# Day 1 Lab
+# Exercise Basic Docker Commands
 
 Let us Start
 
