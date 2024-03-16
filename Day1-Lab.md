@@ -3,8 +3,8 @@
 Let us Start
 
 ## Table of Contents
- [1. Install docker on amazon linux](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Day1-Lab.md#1-install-docker-on-amazon-linux)
- [2. Verify the docker version](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Day1-Lab.md#2-verify-the-docker-version)
+ [1. Install docker on amazon linux](#1-install-docker-on-amazon-linux)
+ [2. Verify the docker version](#2-verify-the-docker-version)
  [3. Docker search](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Day1-Lab.md#3-docker-search)
  [4. Run a container](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Day1-Lab.md#4how-to-run-a-container-from-an-image)
  [5. Verify the container status with docker ps command with it's diffrent switches](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Day1-Lab.md#5-listing-docker-containers-the-docker-ps-command-and-its-options--a-and--q)
