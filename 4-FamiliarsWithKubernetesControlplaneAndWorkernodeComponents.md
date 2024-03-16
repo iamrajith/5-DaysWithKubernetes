@@ -12,6 +12,7 @@
 ## Introduction
 
 So far we have gone through the basics of docker. Let's dive into Kubernetes by exploring the control plane and worker node components.
+
 ## Listing All Control Plane Components
 
 The control plane components run in the 'kube-system' namespace. To list all pods in the 'kube-system' namespace, use the following command:
@@ -20,11 +21,11 @@ The control plane components run in the 'kube-system' namespace. To list all pod
 kubectl get pods -n kube-system
 ```
 
-This will list all the control plane components.
+This lists all the control plane components.
 
 ## Exploring Individual Control Plane Components
 
-You can describe each pod to get more information about it. Here's how you can do it for each control plane component:
+We can obtain a detailed description of each pod. Let's see how to do it for each control plane component:
 
 ### API Server
 
