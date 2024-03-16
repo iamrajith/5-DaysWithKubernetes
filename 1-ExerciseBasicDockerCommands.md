@@ -50,7 +50,7 @@ Search for Ubuntu images
 docker search ubuntu
 ```
 
-## 4.How to run a container from an image
+## 4. How to run a container from an image
 
 Run a container
 ```bash
