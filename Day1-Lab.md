@@ -7,9 +7,9 @@ Let us Start
  [2. Verify the docker version](#2-verify-the-docker-version)
  [3. Docker search](#3-docker-search)
  [4. Run a container](#4-how-to-run-a-container-from-an-image)
- [5. Verify the container status with docker ps command with it's diffrent switches](#5-listing-containers-the-docker-ps-command-and-its-options--a-and--q)
- [6. Stop and remove the container](#6.-how-to-stop-a-container)
- [# 7. Remove a container](#7.-how-to-remove-a-container)
+ [5. Verify the container status with docker ps command with it's diffrent switches](#5-listing-containers-the-docker-ps-command-and-its-options-a-and-q)
+ [6. Stop and remove the container](#6-how-to-stop-a-container)
+ [# 7. Remove a container](#7-how-to-remove-a-container)
 
 ## 1. Install docker on amazon linux
 
