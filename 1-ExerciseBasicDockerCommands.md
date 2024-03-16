@@ -7,7 +7,7 @@ Let us Start
  [2. Verify the docker version](#2-verify-the-docker-version)
  [3. Docker search](#3-docker-search)
  [4. Run a container](#4-how-to-run-a-container-from-an-image)
- [5. Listing Containers; the docker ps command and its options](#5-listing-containers;-the-docker-ps-command-and-its-options)
+ [5. Listing Containers](#5-listing-containers)
  [6. Stop and remove the container](#6-how-to-stop-a-container)
  [# 7. Remove a container](#7-how-to-remove-a-container)
 
@@ -56,7 +56,7 @@ Run a container
 ```bash
 docker run -it ubuntu:latest /bin/bash
 ```
-## 5. Listing Containers; the docker ps command and its options
+## 5. Listing Containers
 
 List all running containers
 ```bash
