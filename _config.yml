@@ -1,0 +1,11 @@
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+collections: true
+include:
+  - 1-ExerciseBasicDockerCommands.md
+  - 2-ExerciseDockerImages.mdd
+  - 3-ExerciseDockerfile.md
+  - 4-FamiliarsWithKubernetesControlplaneAndWorkernodeComponents.md
+  - README.md
