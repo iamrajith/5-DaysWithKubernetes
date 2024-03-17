@@ -1,5 +1,5 @@
 
-# Exercise Docker Commit
+# Exercise Docker Images
 
 ## Table of Contents
 
