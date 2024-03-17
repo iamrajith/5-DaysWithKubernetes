@@ -4,3 +4,8 @@ description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+include:
+  - 1-ExerciseBasicDockerCommands.md
+  - 2-ExerciseDockerImages.md
+  - 3-ExerciseDockerfile.md
+  - 4-FamiliarsWithKubernetesControlplaneAndWorkernodeComponents.md
