@@ -1,11 +1,6 @@
-plugins:
-  - jekyll-relative-links
-relative_links:
-  enabled: true
-collections: true
-include:
-  - 1-ExerciseBasicDockerCommands.md
-  - 2-ExerciseDockerImages.mdd
-  - 3-ExerciseDockerfile.md
-  - 4-FamiliarsWithKubernetesControlplaneAndWorkernodeComponents.md
-  - README.md
+title: Minimal theme
+logo: /assets/img/logo.png
+description: Minimal is a theme for GitHub Pages.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal
