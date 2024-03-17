@@ -4,6 +4,7 @@ description: Minimal is a theme for GitHub Pages.
 show_downloads: true
 google_analytics:
 theme: jekyll-theme-minimal
+title: File Days With Kubernetes
 include:
   - 1-ExerciseBasicDockerCommands.md
   - 2-ExerciseDockerImages.md
