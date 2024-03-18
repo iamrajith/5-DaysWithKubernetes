@@ -4,14 +4,13 @@
 
 ## Table of Contents
 1. [Introduction](#introduction)
-2. [Prerequisites](#prerequisites)
-3. [Task 1: Nginx Pod](#task-1-nginx-pod)
-4. [Task 2: Busybox Pod](#task-2-busybox-pod)
-5. [Task 3: Multicontainer Pod](#task-3-multicontainer-pod)
-6. [Fields in a Pod Definition File](#fields-in-a-pod-definition-file)
-7. [Multi-Container Pods](#multi-container-pods)
-8. [Lab Exercise](#lab-exercise)
-9. [References](#references)
+2. [Task 1: Nginx Pod](#task-1-nginx-pod)
+3. [Task 2: Busybox Pod](#task-2-busybox-pod)
+4. [Task 3: Multicontainer Pod](#task-3-multicontainer-pod)
+5. [Fields in a Pod Definition File](#fields-in-a-pod-definition-file)
+6. [Multi-Container Pods](#multi-container-pods)
+7. [Lab Exercise](#lab-exercise)
+8. [References](#references)
 
 ---
 

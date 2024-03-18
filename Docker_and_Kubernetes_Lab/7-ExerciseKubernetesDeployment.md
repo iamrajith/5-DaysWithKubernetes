@@ -64,6 +64,7 @@ Add the following content to `deployment.yaml`:
               ports:
                 - containerPort: 80
     ```
+*(Note: This file describes the desired state of your application.)*
 
 [References](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment)
 
