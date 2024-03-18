@@ -1,5 +1,5 @@
 
-# Kubernetes Labs: Pods Basics and Multi-Container Pods
+# Exercise Pods Basics and Multi-Container Pods
 
 
 ## Table of Contents
