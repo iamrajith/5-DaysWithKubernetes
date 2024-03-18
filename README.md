@@ -7,4 +7,4 @@ Training On Docker and Kubernetes
 2. [Exercise Docker Images](https://lab.rajith.in/2-ExerciseDockerImages.html)
 3. [Exercise Dockerfile](https://lab.rajith.in/3-ExerciseDockerfile.html)
 4. [Explore Kubernetes Control Plane and Worker Node Components](https://lab.rajith.in/4-FamiliarsWithKubernetesControlplaneAndWorkernodeComponents.html)
-
+5. [Pods Basics and Multi-Container Pods](https://lab.rajith.in/Docker_and_Kubernetes_Lab/5-ExercisePodsBasics.html)
