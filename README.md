@@ -11,3 +11,4 @@ Training On Docker and Kubernetes
 6. [Advanced Pod Commands ](https://lab.rajith.in/Docker_and_Kubernetes_Lab/6-ExerciseAdvancedPod.html)
 7. [Exercise Kubernetes Deployment ](https://lab.rajith.in/Docker_and_Kubernetes_Lab/7-ExerciseKubernetesDeployment.html)
 8. [Advanced Kubernetes Deployment Exercise](https://lab.rajith.in/Docker_and_Kubernetes_Lab/8-ExerciseRollingUpdateAndrollbacks.html)
+9. [Kubernetes Services and Endpoint](https://lab.rajith.in/Docker_and_Kubernetes_Lab/9-ExerciseKubernetesServicesandEndpoint.html)
