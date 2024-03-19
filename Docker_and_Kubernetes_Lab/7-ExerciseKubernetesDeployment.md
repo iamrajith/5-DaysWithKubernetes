@@ -43,7 +43,7 @@ vi deployment.yaml
 
 Add the following content to `deployment.yaml`:
 
-    ```yaml
+```yaml
     apiVersion: apps/v1
     kind: Deployment
     metadata:
@@ -63,7 +63,7 @@ Add the following content to `deployment.yaml`:
               image: nginx:1.14.2
               ports:
                 - containerPort: 80
-    ```
+```
 *(Note: This file describes the desired state of your application.)*
 
 [References](https://kubernetes.io/docs/concepts/workloads/controllers/deployment/#creating-a-deployment)
