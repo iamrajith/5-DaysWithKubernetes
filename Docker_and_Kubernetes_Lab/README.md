@@ -16,3 +16,5 @@ Training On Docker and Kubernetes
 6. [Advanced Pod Commands ](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/6-ExerciseAdvancedPod.md)
 
 7. [Exercise Kubernetes Deployment ](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/7-ExerciseKubernetesDeployment.md)
+
+8. [Advanced Kubernetes Deployment Exercise](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/8-ExerciseRollingUpdateAndrollbacks.md)
