@@ -63,6 +63,8 @@ Worker nodes run the workloads and communicate with the control plane through th
 
 - **Kubelet**: This is the primary node agent that communicates with the API server to ensure that containers are running in a pod.
 
+**This need to be execute from the worker nodes as the root user.**
+
 `Get the status of kubelet`
 ```bash
 systemctl status kubelet
@@ -76,6 +78,8 @@ kubectl -n kube-system get pod -o wide | grep kube-proxy
 ```
 
 - **Container Runtime**: This is the software that is responsible for running containers. Kubernetes supports several runtimes: Docker, containerd, CRI-O, and any implementation of the Kubernetes CRI (Container Runtime Interface).
+
+**This need to be execute from the worker nodes as the root user.**
 
 `Get the status of containerd`
 ```bash
