@@ -1,4 +1,4 @@
-## Lab Exercise: Installing a Kubernetes Cluster
+# Lab Exercise: Installing a Kubernetes Cluster
 
 Follow these steps to install Kubernetes on Amazon Linux:
 
