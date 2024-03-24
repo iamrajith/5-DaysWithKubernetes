@@ -11,19 +11,19 @@ To use `kubectl` (the Kubernetes command-line tool), follow these steps:
 1. Create the `.kube` directory in your home folder:
 
 *(Note: Execute the below command from the user where you want to manage your Kubernetes cluster.)*
-   ```bash
-   mkdir -p $HOME/.kube
-   ```
+```bash
+mkdir -p $HOME/.kube
+```
 
 2. Copy the Kubernetes configuration file to your user's home directory:
-   ```bash
-   sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
-   ```
+```bash
+sudo cp -i /etc/kubernetes/admin.conf $HOME/.kube/config
+```
 
 3. Change ownership of the configuration file to your user:
-   ```bash
-   sudo chown $(id -u):$(id -g) $HOME/.kube/config
-   ```
+```bash
+sudo chown $(id -u):$(id -g) $HOME/.kube/config
+```
 ### 2. Verify Node Status
 
 Your node status is not ready yet! Don't worry, it will be ready soon.
