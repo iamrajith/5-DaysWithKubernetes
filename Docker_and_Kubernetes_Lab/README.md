@@ -19,4 +19,8 @@ Training On Docker and Kubernetes
 
 8. [Advanced Kubernetes Deployment Exercise](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/8-ExerciseRollingUpdateAndrollbacks.md)
 
-8. [Advanced Kubernetes Deployment Exercise](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/9-ExerciseKubernetesServicesandEndpoint.md)
+9. [Advanced Kubernetes Deployment Exercise](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/9-ExerciseKubernetesServicesandEndpoint.md)
+
+10. [Lab Exercise: Installing a Kubernetes Cluster](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/10-ExerciseInstallingKubernetesCluster.md)
+
+11. [Setting Up a Kubernetes Cluster: Post-Installation Steps](https://github.com/iamrajith/5-DaysWithKubernetes/blob/main/Docker_and_Kubernetes_Lab/11-SettingUpKubernetesCluster.md)
