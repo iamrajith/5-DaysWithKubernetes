@@ -1,0 +1,37 @@
+# 4. Updating a Deployment
+
+Updating a Kubernetes deployment involves modifying the configuration of an existing deployment. We'll explore two methods for updating deployments: directly editing the YAML file and using the `kubectl apply` command.
+
+## 4.1 Directly Editing the YAML File
+
+1. **Open the Deployment YAML File**:
+   - Use the following command to open the YAML configuration of the deployment in your default editor:
+     ```bash
+     kubectl edit deployment my-deployment
+     ```
+   - This command will open the deployment configuration for `my-deployment`.
+
+2. **Make Changes**:
+   - Navigate to the `spec.template.spec.containers` section.
+   - Update the image version or any other desired fields.
+   - Save the file and exit the editor.
+
+3. **Apply the Changes**:
+   - The changes you made in the YAML file will be applied to the deployment using the following command:
+     ```bash
+     kubectl apply -f my-deployment.yaml
+     ```
+
+## 4.2 Using `kubectl apply`
+
+1. **Update the YAML File**:
+   - Modify the deployment YAML file directly (as described in the previous step).
+
+2. **Apply the Changes**:
+   - Use the `kubectl apply` command to apply the updated configuration:
+     ```bash
+     kubectl apply -f my-deployment.yaml
+     ```
+
+Remember to replace placeholders (e.g., `my-deployment`, `nginx:1.15.0`) with your actual values. 🚀
+
