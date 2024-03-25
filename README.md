@@ -17,3 +17,5 @@ Training On Docker and Kubernetes
 
 
 # Basic Unix Command Lab 
+
+1.  [Basic Unix Commands](https://lab.rajith.in/Basic_Unix_Commands/1-Day1-BasicUnixCommandLab.html)

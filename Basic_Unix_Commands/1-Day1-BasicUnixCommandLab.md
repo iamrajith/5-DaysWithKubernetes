@@ -3,6 +3,8 @@
 This series is for people who love to enter the world of Linux. With the introduction of microservices, a lot of people started to show interest to learn Linux.
 
 Here we are not covering any advanced topics. It is for the people who are stepping into the world of Linux. Especially for those who wanted to learn Linux as a stepping stone for Kubernetes.
+
+
 ---
 1. **`tty`**: Reveals the current terminal.
 2. **`whoami`**: Displays the currently logged-in user.
@@ -19,6 +21,7 @@ Here we are not covering any advanced topics. It is for the people who are stepp
 10. **`echo`**: Prints a string to the standard output.
 
 Example: `echo "Hello, welcome to the world of Linux."`
+
 ---
 
 Welcome to the Basic Unix Command Lab! In this lab, you'll learn essential Unix commands that will help you navigate your system, manage files and directories, and perform various tasks. Let's dive in!
@@ -135,7 +138,5 @@ ping google.com
 
 Remember to explore these commands further and practice using them. Feel free to experiment and learn more about Unix! 🚀
 
----
 
----
 Feel free to customize this lab by adding more commands or exercises. If you have any questions or need assistance, feel free to ask!
