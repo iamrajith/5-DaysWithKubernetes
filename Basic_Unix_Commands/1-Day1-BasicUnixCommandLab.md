@@ -1,4 +1,4 @@
-# Basic Unix Command Lab
+# Basic Unix Commands
 
 This series is for people who love to enter the world of Linux. With the introduction of microservices, a lot of people started to show interest to learn Linux.
 
@@ -23,8 +23,7 @@ Here we are not covering any advanced topics. It is for the people who are stepp
 Example: `echo "Hello, welcome to the world of Linux."`
 
 ---
-
-Welcome to the Basic Unix Command Lab! In this lab, you'll learn essential Unix commands that will help you navigate your system, manage files and directories, and perform various tasks. Let's dive in!
+In this lab, you will learn essential Unix commands to navigate your system, manage files and directories, and perform tasks.Let's dive in!
 
 
 ## 1. Navigating the Filesystem
