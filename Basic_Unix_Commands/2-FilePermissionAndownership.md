@@ -1,5 +1,3 @@
-Certainly! Let's delve into each section with detailed explanations, practical exercises, and relevant commands. 🚀
-
 ## 2. **File Ownership**
 
 ### Explanation
@@ -173,4 +171,4 @@ The `stat` command provides detailed information about files. It allows you to r
 - Helps track file changes and access patterns.
 
 
-Explore these concepts, practice exercises, and master Linux permissions! 🐧🔒
+Explore these concepts, practice exercises, and master Linux permissions! 🐧🔒 Don't miss the next session whcih talk about the special permission.
