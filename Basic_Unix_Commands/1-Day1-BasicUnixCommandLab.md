@@ -23,7 +23,6 @@ This series is for people who love to enter the world of Linux. With the introdu
 
 Example: `echo "Hello, welcome to the world of Linux."`
 
----
 In this lab, you will learn essential Unix commands to navigate your system, manage files and directories, and perform tasks.Let's dive in!
 
 
