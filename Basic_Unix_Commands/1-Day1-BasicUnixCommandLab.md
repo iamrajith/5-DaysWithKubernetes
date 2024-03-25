@@ -4,6 +4,7 @@ This series is for people who love to enter the world of Linux. With the introdu
 
 ---
 *(Here we are not covering any advanced topics. It is for the people who are stepping into the world of Linux. Especially for those who wanted to learn Linux as a stepping stone for Kubernetes.)*
+
 ---
 
 1. **`tty`**: Reveals the current terminal.
