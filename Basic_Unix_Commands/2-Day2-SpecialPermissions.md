@@ -1,4 +1,4 @@
-# Understanding SGID (Set Group ID) in Linux
+# Special Permissions
 
 ## Special Permissions: SUID and Password Management
 
