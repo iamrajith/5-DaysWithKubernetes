@@ -23,8 +23,8 @@ Introduction to basic unix commands
 
 ## Table of Contents
 1.  [Basic Unix Commands](https://lab.rajith.in/Basic_Unix_Commands/1-Day1-BasicUnixCommandLab.html)
-2.  [Linux File Ownership and Permissions ](https://lab.rajith.in/Basic_Unix_Commands/2-Day2.1-FilePermissionAndownership.html)
-2.  [Special Permissions](https://lab.rajith.in/Basic_Unix_Commands/2-Day2.2-SpecialPermissions.html)
-2.  [Importance of Directory Permissions](https://lab.rajith.in/Basic_Unix_Commands/2-Day2.3-ImportanceOfDirectoryPermissions.html)
-3.  [User Management in Linux](https://lab.rajith.in/Basic_Unix_Commands/3-Day3.1-UserManagementInLinux.html)
-3.  [User and Group Management Exercise](https://lab.rajith.in/Basic_Unix_Commands/3-Day3.2-UserManagementInLinux.html)
+2.  [Linux File Ownership and Permissions ](https://lab.rajith.in/Basic_Unix_Commands/2-Day2-1-FilePermissionAndownership.html)
+2.  [Special Permissions](https://lab.rajith.in/Basic_Unix_Commands/2-Day2-1-SpecialPermissions.html)
+2.  [Importance of Directory Permissions](https://lab.rajith.in/Basic_Unix_Commands/2-Day2-3-ImportanceOfDirectoryPermissions.html)
+3.  [User Management in Linux](https://lab.rajith.in/Basic_Unix_Commands/3-Day3-1-UserManagementInLinux.html)
+3.  [User and Group Management Exercise](https://lab.rajith.in/Basic_Unix_Commands/3-Day3-2-UserManagementInLinux.html)
