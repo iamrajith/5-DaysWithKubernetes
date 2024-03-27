@@ -1,4 +1,4 @@
-## Why Execute Permission for a Directory?
+## Importance of Directory Permissions
 
 1. **Entering the Directory (cd)**:
     - The execute permission on a directory allows you to change your working directory using the `cd` command.
