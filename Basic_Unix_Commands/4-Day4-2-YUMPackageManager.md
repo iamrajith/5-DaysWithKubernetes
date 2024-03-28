@@ -1,4 +1,4 @@
-## YUM Package Manager: A Complete Guide
+## YUM Package Manager
 
 Yellowdog Updater Modified (yum)  is a much easier package manager which works on rpm RPM-based system. The two attractive features of 'yum' when compared with 'rpm' is it resolves dependency automatically. It also can automatically perform the system update.
 
