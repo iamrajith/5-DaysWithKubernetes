@@ -29,4 +29,8 @@ Introduction to basic unix commands
 3.  [User Management in Linux](https://lab.rajith.in/Basic_Unix_Commands/3-Day3-1-UserManagementInLinux.html)
 3.  [User and Group Management Exercise](https://lab.rajith.in/Basic_Unix_Commands/3-Day3-2-LabExerciseUserandGroupManagement.html)
 4.  [Introduction to RPM (Red Hat Package Manager](https://lab.rajith.in/Basic_Unix_Commands/4-Day4-1-IntroductionRedHatPackageManager.html)
+4.  [YUM Package Manager](https://lab.rajith.in/Basic_Unix_Commands/4-Day4-2-YUMPackageManager.html)
 
+
+
+4-Day4-2-YUMPackageManager.md
