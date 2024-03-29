@@ -18,8 +18,9 @@ Training On Docker and Kubernetes
 11. [Index](https://lab.rajith.in/Docker_and_Kubernetes_Lab/11-SettingUpKubernetesCluster.html)
 
 
-# Basic Unix Command Lab 
-Introduction to basic unix commands
+# Linux basics - let's start!
+
+Get ready to dive into Linux like a pro - let's start with the basics!
 
 ## Table of Contents
 1.  [Basic Unix Commands](https://lab.rajith.in/Basic_Unix_Commands/1-Day1-BasicUnixCommandLab.html)
