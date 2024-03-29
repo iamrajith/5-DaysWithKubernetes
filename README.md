@@ -15,7 +15,6 @@ Training On Docker and Kubernetes
 10. [Lab Exercise: Installing a Kubernetes Cluster](https://lab.rajith.in/Docker_and_Kubernetes_Lab/10-ExerciseInstallingKubernetesCluster.html)
 11. [Setting Up a Kubernetes Cluster: Post-Installation Steps](https://lab.rajith.in/Docker_and_Kubernetes_Lab/11-SettingUpKubernetesCluster.html)
 
-11. [Index](https://lab.rajith.in/Docker_and_Kubernetes_Lab/11-SettingUpKubernetesCluster.html)
 
 
 # Linux basics - let's start!
@@ -32,6 +31,3 @@ Get ready to dive into Linux like a pro - let's start with the basics!
 4.  [Introduction to RPM (Red Hat Package Manager](https://lab.rajith.in/Basic_Unix_Commands/4-Day4-1-IntroductionRedHatPackageManager.html)
 4.  [YUM Package Manager](https://lab.rajith.in/Basic_Unix_Commands/4-Day4-2-YUMPackageManager.html)
 
-
-
-4-Day4-2-YUMPackageManager.md
