@@ -8,7 +8,7 @@
 
 **If you are familiar with Linux, we can compare the Ansible ad hoc commands with one-liner Linux shell commands; and the playbooks to shell script.**
 
-Refer the [official Ansible documentation](https://docs.ansible.com/ansible/latest/command_guide/intro_adhoc.html#intro-adhoc) for more information.
+**Refer the [official Ansible documentation](https://docs.ansible.com/ansible/latest/command_guide/intro_adhoc.html#intro-adhoc) for more information.**
 
 - **Use Cases for Ad-hoc Tasks:**
   - Rebooting servers
@@ -97,5 +97,7 @@ Refer the [official Ansible documentation](https://docs.ansible.com/ansible/late
 6. **Create a Directory Using the File Module:**
    - Create a directory named "/etc/some_directory."
    - Command: `$ ansible all -m file -a "path=/etc/some_directory state=directory mode=0755"`
-   - Note: The Ansible `file` module is used to manage files and directories. It allows you to create, delete, modify permissions, copy, touch, or manipulate file ownership¹.
+   - Note: The Ansible `file` module is used to manage files and directories. It allows you to create, delete, modify permissions, copy, touch, or manipulate file ownership.
+
+
 Note: *(We used an Ansible module named file. We will discuss modules later in the session. If you want to know more about the file module,)*[please refer to the official documentation.](https://docs.ansible.com/ansible/latest/collections/ansible/builtin/file_module.html)
