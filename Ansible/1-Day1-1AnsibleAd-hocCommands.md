@@ -20,7 +20,6 @@ Refer the [official Ansible documentation](https://docs.ansible.com/ansible/late
   - Check mode (dry run)
   - And more!
 
----------------------------------------------
 
 ## Practical Examples of Ansible Ad-hoc Commands
 
@@ -79,7 +78,9 @@ Refer the [official Ansible documentation](https://docs.ansible.com/ansible/late
 
      server2 | CHANGED | rc=0 >>
      (no output)
+   
      ```
+*(The user creation require root privillage in the managed nodes, if not the command will fail)*
 
 5. **Check User ID (UID):**
    - Verify the user ID for "myuser."
