@@ -15,7 +15,7 @@
 
 ### **Inventory Management**
 
-1. **Creating an Inventory File (INI Format):**
+- **Creating an Inventory File (INI Format):**
    - Define hosts and groups.
    - Example:
      ```ini
@@ -27,18 +27,18 @@
      dbserver1 ansible_host=192.168.1.201
      ```
 
-2. **Using Patterns to Select Hosts:**
+- **Using Patterns to Select Hosts:**
    - Patterns allow you to target specific hosts or groups.
    - Examples:
      - `$ ansible webservers -m ping` (Ping all webservers)
      - `$ ansible dbservers -a "uptime"` (Check uptime on DB servers)
 
-3. **Dynamic Inventories:**
+- **Dynamic Inventories:**
    - Pull inventory dynamically (e.g., from cloud providers).
    - Use dynamic inventory plugins.
    - Example: AWS EC2 instances as inventory.
 
-4. **Organizing Inventory:**
+- **Organizing Inventory:**
    - Create a directory with multiple inventory files.
    - Use different formats (YAML, INI, etc.).
    - Organize by environment, function, or location.
