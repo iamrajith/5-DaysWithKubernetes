@@ -1,4 +1,4 @@
-## Ansible Playbook:Basic conditionals with when
+## Ansible Playbook:Basic conditionals with when
 
 Let’s explore the usage of conditionals in Ansible by combining both playbooks. We’ll use the when condition based on the OS: for CentOS, we’ll install the package using yum, and for Ubuntu, we’ll use apt.
 
