@@ -1,5 +1,6 @@
 # Five Days With Kubernetes
-Training On Docker and Kubernetes
+
+This is an introductory series on Kubernetes. Let's explore basic Docker concepts, Kubernetes architecture, pods, deployment, and services.
 
 ## Table of Contents
 
