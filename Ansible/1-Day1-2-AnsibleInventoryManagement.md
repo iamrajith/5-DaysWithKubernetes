@@ -53,7 +53,7 @@ The `ansible-inventory` command allows you to view and manipulate your Ansible i
   ```
 
 ### 2. **Host Variables**
-Host variables allow you to define specific settings for individual hosts. These variables override group variables for that particular host. Here's an example:
+Host variables allow you to define specific settings for individual hosts. These variables override group variables for that particular host. Here is an example:
 
 Suppose you have an inventory file (`inventory.ini`) with the following content:
 ```ini
@@ -90,7 +90,7 @@ This way, all hosts in the `[webservers]` group will use the specified NTP serve
 
 
 **Reference**
-[For more details, refer to the official Ansible documentation](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html). 
-[Building Ansible inventories — Ansible Community Documentation.](https://docs.ansible.com/ansible/latest/inventory_guide/index.html.)
-[Inventories Red Hat Ansible Automation Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.4/html/automation_controller_user_guide/controller-inventories.)
-[Building an inventory — Ansible Community Documentation.](https://docs.ansible.com/ansible/9/getting_started/get_started_inventory.html.)
+- [For more details, refer to the official Ansible documentation](https://docs.ansible.com/ansible/latest/inventory_guide/intro_inventory.html). 
+- [Building Ansible inventories — Ansible Community Documentation.](https://docs.ansible.com/ansible/latest/inventory_guide/index.html.)
+- [Inventories Red Hat Ansible Automation Platform](https://access.redhat.com/documentation/en-us/red_hat_ansible_automation_platform/2.4/html/automation_controller_user_guide/controller-inventories.)
+- [Building an inventory — Ansible Community Documentation.](https://docs.ansible.com/ansible/9/getting_started/get_started_inventory.html.)

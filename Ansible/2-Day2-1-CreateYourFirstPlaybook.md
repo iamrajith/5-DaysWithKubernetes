@@ -37,7 +37,7 @@ Create an Ansible playbook that accomplishes the following tasks on a set of tar
 3. **Run the Playbook**:
    - Execute the playbook on the target servers (replace with your own inventory file and administrative user):
      ```
-     ansible-playbook -i inventory nginx-playbook.yml -u sammy
+     ansible-playbook -i inventory nginx-playbook.yml 
      ```
    - Verify that Nginx is installed and the HTML page is accessible by opening a web browser and navigating to `http://your-server-ip`.
 
@@ -93,7 +93,7 @@ Explanation:
 1. The `systemd` module is used to manage services. We added an entry to start the Nginx service (`nginx`).
 2. The `enabled: yes` line ensures the Nginx start on system boot.
 
-Now, when you run this playbook, 
+Now, when you run this playbook,
 
 - Install Nginx
 - Copy the HTML content

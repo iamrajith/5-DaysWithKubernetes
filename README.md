@@ -31,3 +31,14 @@ Get ready to dive into Linux like a pro - let's start with the basics!
 4.  [Introduction to RPM (Red Hat Package Manager](https://lab.rajith.in/Basic_Unix_Commands/4-Day4-1-IntroductionRedHatPackageManager.html)
 4.  [YUM Package Manager](https://lab.rajith.in/Basic_Unix_Commands/4-Day4-2-YUMPackageManager.html)
 
+
+
+# Let us Automate with Ansible!
+
+Let's start with ad-hoc commands, then move on to Ansible inventory management techniques, followed by playing with playbooks.
+
+
+## Table of Contents
+1. [Introduction to Ansible Ad-hoc Commands](https://lab.rajith.in/Ansible/1-Day1-1AnsibleAd-hocCommands.html)
+2. [Ansible Inventory Management](https://lab.rajith.in/Ansible/1-Day1-2-AnsibleInventoryManagement.html)
+2. 
