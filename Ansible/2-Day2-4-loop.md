@@ -142,4 +142,4 @@ Here is another instance of 'loop' in the same playbook, which should be self-ex
 ```
 
 ### Reference 
-(1) Loops — Ansible Community Documentation. https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_loops.html.
+[Loops — Ansible Community Documentation.](https://docs.ansible.com/ansible/latest/playbook_guide/playbooks_loops.html.)
