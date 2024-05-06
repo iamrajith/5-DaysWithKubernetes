@@ -22,7 +22,7 @@ yum update -y
 
 Install the most recent Docker Community Edition package
 ```bash
-amazon-linux-extras install docker`
+yum install docker -y 
 ```
 Start the Docker service
 ```bash
