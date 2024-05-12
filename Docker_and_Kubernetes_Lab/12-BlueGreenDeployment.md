@@ -130,7 +130,7 @@ kind: Deployment
 metadata:
   labels:
     app: deploymentCanary
-  name: deploymentCanary-v2
+  name: deploymentcanary-v2
 spec:
   replicas: 2
   selector:
