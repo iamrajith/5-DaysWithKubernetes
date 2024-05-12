@@ -46,7 +46,7 @@ spec:
 
 Apply the Deployment:
 ```
-kubectl apply -f nginx-deploymentV1.yaml
+kubectl create -f nginx-deploymentV1.yaml
 ```
 
 ### Creating Services
@@ -73,7 +73,7 @@ spec:
 
 Create the Service:
 ```
-kubectl apply -f nginx-service.yaml
+kubectl create -f nginx-service.yaml
 ```
 
 ### Testing the Deployment and Service
@@ -122,7 +122,7 @@ spec:
 
 Create the Deployment:
 ```
-kubectl apply -f nginx-deploymentV1.yaml
+kubectl create -f nginx-deploymentV1.yaml
 ```
 ### Modify the Service
 Now let's modify the Service to points to the bluegreenv2 Deployment:

@@ -15,3 +15,7 @@ This is an introductory series on Kubernetes. Let's explore basic Docker concept
 9.  [Kubernetes Services and Endpoint](https://lab.rajith.in/Docker_and_Kubernetes_Lab/9-ExerciseKubernetesServicesandEndpoint.html)
 10. [Lab Exercise: Installing a Kubernetes Cluster](https://lab.rajith.in/Docker_and_Kubernetes_Lab/10-ExerciseInstallingKubernetesCluster.html)
 11. [Setting Up a Kubernetes Cluster: Post-Installation Steps](https://lab.rajith.in/Docker_and_Kubernetes_Lab/11-SettingUpKubernetesCluster.html)
+
+## Additional practice sessions
+
+12. [Kubernetes Blue-Green Deployments](https://lab.rajith.in/Docker_and_Kubernetes_Lab/12-BlueGreenDeployment.html)
