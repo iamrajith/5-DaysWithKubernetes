@@ -22,6 +22,9 @@ This is an introductory series on Kubernetes. Let's explore basic Docker concept
 13. [Explore the concept of Canary deployment](https://lab.rajith.in/Docker_and_Kubernetes_Lab/13-CanaryDeployment.html)
 14. [Modify the default Rollout Strategy to Recreate](https://lab.rajith.in/Docker_and_Kubernetes_Lab/Docker_and_Kubernetes_Lab/14-RolloutStrategyRecreate.html)
 
+15. [Modify the Strategy to Recreate](https://lab.rajith.in/Docker_and_Kubernetes_Lab/Docker_and_Kubernetes_Lab/14-RolloutStrategyRecreate.html)
+
+
 # Linux basics - let's start!
 
 Get ready to dive into Linux like a pro - let's start with the basics!
