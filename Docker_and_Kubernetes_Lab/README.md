@@ -19,3 +19,5 @@ This is an introductory series on Kubernetes. Let's explore basic Docker concept
 ## Additional practice sessions
 
 12. [Kubernetes Blue-Green Deployments](https://lab.rajith.in/Docker_and_Kubernetes_Lab/12-BlueGreenDeployment.html)
+13. [Explore the concept of Canary deployment](https://lab.rajith.in/Docker_and_Kubernetes_Lab/13-CanaryDeployment.html)
+14. [Modify the default Rollout Strategy to Recreate](https://lab.rajith.in/Docker_and_Kubernetes_Lab/Docker_and_Kubernetes_Lab/14-RolloutStrategyRecreate.html)
