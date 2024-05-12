@@ -1,5 +1,14 @@
-# Kubernetes Blue-Green Deployments
-Our critical application requires a swift version upgrade without downtime
+# Let's explore the concept of Canary deployment
+
+We have an existing application. That runs on the "httpd: alpine" image. Now, let's switch to the "nginx: alpine" image. The change should take place gradually. Let us make use of the Canary deployment approach here.
+
+First, create a new Deployment called deploymentCanary-v2 and configure it to use the "nginx: alpine" image.
+
+Next, set up traffic splitting so that 20% of incoming requests go to the new "Nginx: alpine" version. The remaining 80% continue to hit the old "httpd: alpine" version.
+
+Monitor the behavior of both versions while ensuring that the total number of Pods across both Deployments remains at 10.
+
+This gradual transition allows us to test the new image without disrupting the system. It's like experimenting in a controlled lab environment! 
 
 ## Table of Contents
 1. [Introduction to Kubernetes](#introduction-to-kubernetes)
