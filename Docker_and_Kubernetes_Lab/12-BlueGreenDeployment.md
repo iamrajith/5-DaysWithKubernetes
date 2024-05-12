@@ -18,6 +18,24 @@ Our application is currently running on version one. The image used is the "http
 
 ## Creating Deployments and Services
 Create version 1 of our application with the deployment and service definition file given here.
+
+## Table of Contents
+1. [Introduction to Kubernetes](#introduction-to-kubernetes)
+2. [Creating Deployments and Services](#creating-deployments-and-services)
+    - [Creating Deployments](#creating-deployments)
+    - [Creating Services](#creating-services)
+3. [ClusterIP Services](#clusterip-services)
+4. [NodePort Services](#nodeport-services)
+5. [Comparing Endpoint IPs with Pods](#comparing-endpoint-ips-with-pods)
+6. [References](#references)
+
+---
+
+## Summary 
+Our application is currently running on version one. The image used is the "httpd: alpine" image. We planned to update it to the latest version using the "nginx: alpine" image. The change needs to be implemented immediately, without any delays. Once the update is complete, the new requests should redirect to the container running with the version 2 "nginx" image. 
+
+## Creating Deployments and Services
+Create version 1 ( Blue ) of our application with the deployment and service definition file given here.
 ### Creating deployment
 
 ```yaml
@@ -25,17 +43,19 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: deploymentCanary
-  name: deploymentCanary-v1
+    app: bluegreenv1
+  name: blue
 spec:
-  replicas: 10
+  replicas: 4
   selector:
     matchLabels:
-      app: deploymentCanary
+      app: bluegreen
+      version: appv1
   template:
     metadata:
       labels:
-        app: deploymentCanary
+        app: bluegreen
+        version: appv1
     spec:
       containers:
       - image: httpd:alpine
@@ -48,15 +68,15 @@ kubectl create -f nginx-deploymentV1.yaml
 ```
 
 ### Creating Services
-Now let's create the Service that points to the Deployment:
+Now let's create the Service that points to the bluegreen Deployment:
 
 ```yaml
 apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: deploymentCanary
-  name: serviceCanary
+    app: bluegreen
+  name: bluegreen
 spec:
   ports:
   - port: 80
@@ -64,7 +84,8 @@ spec:
     targetPort: 80
     nodePort: Change the port based on your username # 30101
   selector:
-    app: deploymentCanary
+    app: bluegreen
+    version: v1
   type: NodePort
 ```
 
@@ -72,7 +93,6 @@ Create the Service:
 ```
 kubectl create -f nginx-service.yaml
 ```
-Here we have the "NodePort" Service named "serviceCanary". It has the Pods of Deployment of the app "deploymentCanary" as the selector.
 
 ### Testing the Deployment and Service
 1. Create a busybox pod:
@@ -91,63 +111,61 @@ Here we have the "NodePort" Service named "serviceCanary". It has the Pods of De
     ```
     http://<node_ip>:30080
     ```
-### Reduce the replicas of the old deployment to 8
-Change the number of replicas to 8.
+### Creating new Deployment bluegreen-v2
+Next, let's create a new Deployment bluegreen-v2 which uses image nginx:alpine with 4 replicas. Its Pods should have labels "app: bluegreen" and version: v2
 
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   labels:
-    app: deploymentCanary
-  name: deploymentCanary-v1
+    app: bluegreenv2
+  name: green
 spec:
-  replicas: 8
+  replicas: 4
   selector:
     matchLabels:
-      app: deploymentCanary
+      app: bluegreen
+      version: v2
   template:
     metadata:
       labels:
-        app: deploymentCanary
-    spec:
-      containers:
-      - image: httpd:alpine
-        name: httpd
-```
-
-Create the Deployment:
-```
-kubectl apply -f nginx-deploymentV1.yaml
-```
-### Create a new Deployment with the same label
-
-Now, both deployments will point to the same service.
-
-```yaml
-apiVersion: apps/v1
-kind: Deployment
-metadata:
-  labels:
-    app: deploymentCanary
-  name: deploymentcanary-v2
-spec:
-  replicas: 2
-  selector:
-    matchLabels:
-      app: deploymentCanary
-  template:
-    metadata:
-      labels:
-        app: deploymentCanary
+        app: bluegreen
+        version: v2
     spec:
       containers:
       - image: nginx:alpine
         name: nginx
+```
+
+Create the Deployment:
+```
+kubectl create -f nginx-deploymentV1.yaml
+```
+### Modify the Service
+Now let's modify the Service to points to the bluegreenv2 Deployment:
+
+```yaml
+apiVersion: v1
+kind: Service
+metadata:
+  labels:
+    app: bluegreen
+  name: bluegreen
+spec:
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 80
+    nodePort: 30080
+  selector:
+    app: bluegreen
+    version: v2
+  type: NodePort
   ```
 Apply the change:
 ```
-kubectl create  -f nginx-service.yaml
+kubectl apply -f nginx-service.yaml
 ```
 
 ### Testing the Deployment and Service
