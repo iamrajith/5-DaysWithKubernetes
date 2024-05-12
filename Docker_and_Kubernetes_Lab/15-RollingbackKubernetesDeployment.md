@@ -18,15 +18,9 @@ Let's create a more comprehensive lab exercise for rolling back a Kubernetes Dep
 ## Introduction
 In this lab exercise, we'll walk through the process of rolling back a Kubernetes Deployment using an Nginx image. We'll create a Deployment, update its version, and then perform a rollback to a previous revision.
 
-### Prerequisites
-Before starting, ensure you have the following:
-- A running Kubernetes cluster
-- `kubectl` command-line tool installed
-
----
 
 ## Step 1: Create a Deployment
-1. Create a Deployment with three replicas using the Nginx image (version 1.0.0). Below is an example of a Deployment YAML definition:
+1. Create a Deployment with three replicas using the Nginx image (nginx:1.13.0). Below is an example of a Deployment YAML definition:
 
 ```yaml
 apiVersion: apps/v1
@@ -45,7 +39,7 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.0.0
+          image: nginx:1.13.0
 ```
 
 Apply the definition using:
@@ -181,7 +175,7 @@ After rolling back, check if the Deployment is running as expected:
 kubectl describe deploy nginx-deployment
 ```
 
-Ensure that the Pods are healthy and the desired version (e.g., `nginx:1.0.0`) is deployed.
+Ensure that the Pods are healthy and the desired version (e.g., `nginx:1.13.0`) is deployed.
 
 ---
 
@@ -190,5 +184,5 @@ Rollbacks are essential for maintaining service stability. By following these st
 
 ---
 
-Remember to replace `<revision-number>` with the actual revision you want to roll back to. Adjust the version numbers in your Deployment definition file as needed. ¹⁵
+Remember to replace `<revision-number>` with the actual revision you want to roll back to. Adjust the version numbers in your Deployment definition file as needed.
 
