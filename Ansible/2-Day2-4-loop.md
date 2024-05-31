@@ -1,6 +1,6 @@
 ## Loops in Ansible Playbook
 
-To demonstrate the 'loop' in Ansible, let's take tasks from a playbook used in another training to configure a Kubernetes cluster.
+To demonstrate the 'loop' in Ansible, let's take tasks from a I playbook used in another training to configure a Kubernetes cluster.
 
 ```yaml
 ---

@@ -51,3 +51,4 @@ Let's start with ad-hoc commands, then move on to Ansible inventory management t
 3. [Create your first playbook](https://lab.rajith.in/Ansible/2-Day2-1-CreateYourFirstPlaybook.html)
 4. [Notify and handlers in ansible](https://lab.rajith.in/Ansible/2-Day2-2-NotifyAndHandlers.html)
 5. [Basic conditionals with when](https://lab.rajith.in/Ansible/2-Day2-3-WhenCondition.html)
+6. [Loops in Ansible Playbook](https://lab.rajith.in/Ansible/2-Day2-4-loop.html)
