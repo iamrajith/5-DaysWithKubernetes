@@ -26,7 +26,7 @@ kind: Deployment
 metadata:
   labels:
     app: deploymentCanary
-  name: deploymentCanary-v1
+  name: deploymentcanary-v1
 spec:
   replicas: 10
   selector:
@@ -56,7 +56,7 @@ kind: Service
 metadata:
   labels:
     app: deploymentCanary
-  name: serviceCanary
+  name: servicecanary
 spec:
   ports:
   - port: 80
@@ -100,7 +100,7 @@ kind: Deployment
 metadata:
   labels:
     app: deploymentCanary
-  name: deploymentCanary-v1
+  name: deploymentcanary-v1
 spec:
   replicas: 8
   selector:
@@ -153,12 +153,12 @@ kubectl create  -f nginx-service.yaml
 ### Testing the Deployment and Service
 1. Create a busybox pod:
     ```
-    kubectl run busybox --image=busybox --restart=Never -- sleep 3600
+    kubectl run ubuntu --image=ubuntu --restart=Never -- sleep 3600
     ```
 
 2. Execute a curl command to check if the ClusterIP service is listening to the Nginx webpage:
     ```
-    kubectl exec -it busybox -- sh
+    kubectl exec -it ubuntu -- sh
     curl nginx-service
     # Expected output: The HTML content of the Nginx webpage
 

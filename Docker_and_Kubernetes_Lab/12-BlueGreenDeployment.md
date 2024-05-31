@@ -85,7 +85,7 @@ spec:
     nodePort: Change the port based on your username # 30101
   selector:
     app: bluegreen
-    version: v1
+    version: appv1
   type: NodePort
 ```
 
@@ -126,12 +126,12 @@ spec:
   selector:
     matchLabels:
       app: bluegreen
-      version: v2
+      version: appv2
   template:
     metadata:
       labels:
         app: bluegreen
-        version: v2
+        version: appv2
     spec:
       containers:
       - image: nginx:alpine
@@ -160,7 +160,7 @@ spec:
     nodePort: 30080
   selector:
     app: bluegreen
-    version: v2
+    version: appv1
   type: NodePort
   ```
 Apply the change:
@@ -171,12 +171,12 @@ kubectl apply -f nginx-service.yaml
 ### Testing the Deployment and Service
 1. Create a busybox pod:
     ```
-    kubectl run busybox --image=busybox --restart=Never -- sleep 3600
+    kubectl run ubuntu --image=ubuntu --restart=Never -- sleep 3600
     ```
 
 2. Execute a curl command to check if the ClusterIP service is listening to the Nginx webpage:
     ```
-    kubectl exec -it busybox -- sh
+    kubectl exec -it ubuntu -- sh
     curl nginx-service
     # Expected output: The HTML content of the Nginx webpage
 
