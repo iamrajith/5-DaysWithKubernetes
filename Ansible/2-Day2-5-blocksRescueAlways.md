@@ -1,4 +1,4 @@
-## Loops in Ansible Playbook
+## Grouping tasks with blocks
 
 Ansible playbook that demonstrates the use of **blocks**, along with **rescue** and **always** sections.
 
