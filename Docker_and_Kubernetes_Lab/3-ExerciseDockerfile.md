@@ -92,7 +92,7 @@ Go back to the parent directory to get ready for the Exercise 2:
 cd ..
 ```
 
-## Exercise 2: Nginx Server on CentOS
+## Exercise 2: Nginx Server on Fedora
 
 First, create a new directory for the Nginx server setup:
 
@@ -110,14 +110,12 @@ vi Dockerfile
 Insert the following content into the Dockerfile:
 
 ```Dockerfile
-# Use an official CentOS runtime as a parent image
-FROM centos:latest
+# Use fedora runtime as a parent image
+FROM fedora:latest
 
 # Update the system with the latest patches
 RUN yum -y update
 
-# Install EPEL Release
-RUN yum install -y epel-release
 
 # Install Nginx
 RUN yum install -y nginx
