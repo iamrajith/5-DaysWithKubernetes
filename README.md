@@ -25,8 +25,8 @@ This is an introductory series on Kubernetes. Let's explore basic Docker concept
 
 ## Additional practice sessions
 
-16. [kubernetes daemonset handson practice](https://lab.rajith.in/Docker_and_Kubernetes_Lab/Docker_and_Kubernetes_Lab/16-DaemonSet.md)
-17. [Let's explore StatefulSets in Kubernetes](https://lab.rajith.in/Docker_and_Kubernetes_Lab/Docker_and_Kubernetes_Lab/17-StatefulSets.md)
+16. [kubernetes daemonset handson practice](https://lab.rajith.in/Docker_and_Kubernetes_Lab/16-DaemonSet.md)
+17. [Let's explore StatefulSets in Kubernetes](https://lab.rajith.in/Docker_and_Kubernetes_Lab/17-StatefulSets.md)
 
 # Linux basics - let's start!
 
