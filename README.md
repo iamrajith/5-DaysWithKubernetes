@@ -16,13 +16,17 @@ This is an introductory series on Kubernetes. Let's explore basic Docker concept
 10. [Lab Exercise: Installing a Kubernetes Cluster](https://lab.rajith.in/Docker_and_Kubernetes_Lab/10-ExerciseInstallingKubernetesCluster.html)
 11. [Setting Up a Kubernetes Cluster: Post-Installation Steps](https://lab.rajith.in/Docker_and_Kubernetes_Lab/11-SettingUpKubernetesCluster.html)
 
-## Additional practice sessions
+## Deep dive into Deployment
 
 12. [Kubernetes Blue-Green Deployments](https://lab.rajith.in/Docker_and_Kubernetes_Lab/12-BlueGreenDeployment.html)
 13. [Explore the concept of Canary deployment](https://lab.rajith.in/Docker_and_Kubernetes_Lab/13-CanaryDeployment.html)
 14. [Modify the default Rollout Strategy to Recreate](https://lab.rajith.in/Docker_and_Kubernetes_Lab/14-RolloutStrategyRecreate.html)
 15. [Rolling Back a Kubernetes Deployment](https://lab.rajith.in/Docker_and_Kubernetes_Lab/15-RollingbackKubernetesDeployment.html)
 
+## Additional practice sessions
+
+16. [kubernetes daemonset handson practice](https://lab.rajith.in/Docker_and_Kubernetes_Lab/Docker_and_Kubernetes_Lab/16-DaemonSet.md)
+17. [Let's explore StatefulSets in Kubernetes](https://lab.rajith.in/Docker_and_Kubernetes_Lab/Docker_and_Kubernetes_Lab/17-StatefulSets.md)
 
 # Linux basics - let's start!
 
