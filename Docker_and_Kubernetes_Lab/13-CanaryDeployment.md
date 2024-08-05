@@ -75,14 +75,14 @@ kubectl create -f nginx-service.yaml
 Here we have the "NodePort" Service named "serviceCanary". It has the Pods of Deployment of the app "deploymentCanary" as the selector.
 
 ### Testing the Deployment and Service
-1. Create a busybox pod:
+1. Create a ubuntu  pod:
     ```
-    kubectl run busybox --image=busybox --restart=Never -- sleep 3600
+    kubectl run ubuntu  --image=ubuntu  --restart=Never -- sleep 3600
     ```
 
 2. Execute a curl command to check if the ClusterIP service is listening to the Nginx webpage:
     ```
-    kubectl exec -it busybox -- sh
+    kubectl exec -it ubuntu  -- sh
     curl nginx-service
     # Expected output: The HTML content of the Nginx webpage
 
