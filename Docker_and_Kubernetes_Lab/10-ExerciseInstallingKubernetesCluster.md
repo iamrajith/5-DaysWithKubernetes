@@ -88,7 +88,11 @@ Follow these steps to install Kubernetes on Amazon Linux:
      systemctl enable kubelet
      systemctl start kubelet
      ```
-
+   - Install `containerd`:
+     ```bash
+     yum install -y containerd 
+     ```
+    
 9. **Create Containerd Configuration**:
    - Run the following command:
      ```bash
@@ -97,6 +101,14 @@ Follow these steps to install Kubernetes on Amazon Linux:
    - Edit `/etc/containerd/config.toml`: search for the below string and modifiy it to true.
       ```bash
       SystemdCgroup = true
+      ```
+   - Start containerd service :
+
+      ```bash
+      systemctl status containerd
+      systemctl start  containerd
+      systemctl enable   containerd
+
       ```
 
 10. **Configure Node IP**:
