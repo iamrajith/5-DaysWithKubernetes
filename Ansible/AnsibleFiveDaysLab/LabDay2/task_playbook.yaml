@@ -1,0 +1,30 @@
+- name: Task-Based Playbook Example
+  hosts: all
+  tasks:
+    - name: Create a directory under /tmp/<username>
+      file:
+        path: "/tmp/{{ ansible_user }}"
+        state: directory
+        mode: '0755'
+
+    - name: Create a file with specific content
+      lineinfile:
+        path: "/tmp/{{ ansible_user }}/file.txt"
+        line: "File creation completed successfully."
+
+    - name: Copy dummy file from jump server
+      copy:
+        src: "/path/to/dummy.txt"  # Update this with the actual path on the jump server
+        dest: "/tmp/{{ ansible_user }}/dummy.txt"
+
+    - name: Verify file creation with ls -l
+      shell: ls -l /tmp/{{ ansible_user }}
+      register: ls_output
+
+    - name: Display ls output
+      debug:
+        var: ls_output.stdout
+
+    - name: Print completion message
+      debug:
+        msg: "All 5 tasks completed successfully."

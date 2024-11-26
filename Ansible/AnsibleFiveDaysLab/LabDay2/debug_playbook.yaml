@@ -1,0 +1,18 @@
+- name: Debug Module Example
+  hosts: all
+  tasks:
+    - name: First task executed on corresponding hostname
+      debug:
+        msg: "First task executed on {{ inventory_hostname }}"
+
+    - name: Second task executed, display system uptime
+      debug:
+        msg: "The uptime of the system is '{{ ansible_facts['uptime'] }}'"
+
+    - name: Third task executed, display server time
+      debug:
+        msg: "The server time is '{{ ansible_date_time['iso8601'] }}'"
+
+    - name: Final task executed
+      debug:
+        msg: "All tasks on {{ inventory_hostname }} completed"

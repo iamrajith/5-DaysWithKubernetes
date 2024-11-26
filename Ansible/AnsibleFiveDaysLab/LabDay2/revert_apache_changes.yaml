@@ -1,0 +1,18 @@
+- name: Revert Apache Setup Changes
+  hosts: all
+  tasks:
+    - name: Delete the index.html file
+      file:
+        path: /var/www/html/index.html
+        state: absent
+
+    - name: Stop and disable Apache service
+      service:
+        name: httpd
+        state: stopped
+        enabled: no
+
+    - name: Uninstall Apache package
+      yum:
+        name: httpd
+        state: absent
