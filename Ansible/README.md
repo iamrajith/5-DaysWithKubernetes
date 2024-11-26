@@ -1,8 +1,14 @@
 # Let us Automate with Ansible!
+## 5 days training Lab description
+
+
+
+1.[Installing Ansible](https://lab.rajith.in/Ansible/AnsibleFiveDaysLab/1-Day1-1-Installation.md)
+
+## Table of Contents
 
 Let's start with ad-hoc commands, then move on to Ansible inventory management techniques, followed by playing with playbooks.
 
-## Table of Contents
 1. [Introduction to Ansible Ad-hoc Commands](https://lab.rajith.in/Ansible/1-Day1-1AnsibleAd-hocCommands.html)
 2. [Ansible Inventory Management](https://lab.rajith.in/Ansible/1-Day1-2-AnsibleInventoryManagement.html)
 3. [Create your first playbook](https://lab.rajith.in/Ansible/2-Day2-1-CreateYourFirstPlaybook.html)
