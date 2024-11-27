@@ -19,3 +19,6 @@ Let's start with ad-hoc commands, then move on to Ansible inventory management t
 8. [Ansible Configuration Settings](https://lab.rajith.in/Ansible/3-Day3-1-ansible-cfg.html)
 9. [Ansible Configuration Settings continued](https://lab.rajith.in/Ansible/3-Day3-2-CommonSettingsAnsibleCfg.html)
 10. [Ansible Playbook Options](https://lab.rajith.in/Ansible/3-Day3-3-ansible-playbookOptions.html)
+
+
+1. [Installing Ansible](https://lab.rajith.in/Ansible/AnsibleFiveDaysLab/1-Day1-1-Installation.html)
