@@ -3,7 +3,7 @@
 
 
 
-1.[Installing Ansible](https://lab.rajith.in/Ansible/AnsibleFiveDaysLab/1-Day1-1-Installation.html)
+1. [Installing Ansible](https://lab.rajith.in/Ansible/AnsibleFiveDaysLab/1-Day1-1-Installation.html)
 
 ## Table of Contents
 
