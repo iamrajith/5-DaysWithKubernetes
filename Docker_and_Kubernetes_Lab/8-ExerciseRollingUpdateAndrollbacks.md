@@ -117,7 +117,7 @@ kubectl set image deployment/my-deployment nginx=nginx:1.23
    - Navigate to the `spec.template.spec.containers` section.
    - Update the image version.
    - Save the file and exit the editor.
-   - 
+     
 ```yaml
     spec:
       containers:
