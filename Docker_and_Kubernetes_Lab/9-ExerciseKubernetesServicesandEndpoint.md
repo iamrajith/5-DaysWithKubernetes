@@ -19,8 +19,6 @@ Kubernetes, also known as "k8s," is an open-source container orchestration platf
 ### Creating Deployments
 In Kubernetes, a **Deployment** defines a desired state for a set of Pods. Let's create a Deployment running Nginx.
 
-(create the  deployment using the following YAML definition file nginx-deployment.yaml)
-
 ```yaml
 apiVersion: apps/v1
 kind: Deployment
