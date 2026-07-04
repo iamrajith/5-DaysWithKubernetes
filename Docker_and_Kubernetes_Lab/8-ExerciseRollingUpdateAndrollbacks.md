@@ -131,7 +131,6 @@ kubectl set image deployment/my-deployment nginx=nginx:1.23
      ```bash
      kubectl apply -f my-deployment.yaml
     ```
-
 ## 5. Rolling Back a Deployment
 ### 5.1 Check Rollout History
 View the rollout history of your deployment:
