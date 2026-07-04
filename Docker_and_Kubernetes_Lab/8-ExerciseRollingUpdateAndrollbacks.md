@@ -86,7 +86,7 @@ We'll explore three methods for updating deployments:
 We can use the `kubectl set image` command to update the image of the nginx deployment. For example, to update the nginx container image to version 1.23, run the following command:
 
 ```bash
-kubectl set image deployment/nginx nginx=nginx:1.23
+kubectl set image deployment/my-deployment nginx=nginx:1.23
 ```
 
 ### 4.2 Using `kubectl edit deployment`
