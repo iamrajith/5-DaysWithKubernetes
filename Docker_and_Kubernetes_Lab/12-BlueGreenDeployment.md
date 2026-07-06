@@ -140,7 +140,7 @@ spec:
 
 Create the Deployment:
 ```
-kubectl create -f nginx-deploymentV1.yaml
+kubectl create -f nginx-deploymentV2.yaml
 ```
 ### Modify the Service
 Now let's modify the Service to points to the bluegreenv2 Deployment:
