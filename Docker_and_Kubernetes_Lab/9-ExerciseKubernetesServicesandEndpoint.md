@@ -115,7 +115,7 @@ kubectl apply -f nginx-nodeport.yaml
     kubectl get nodes -o wide
     ```
 
-2. Use the node's IP address and the specified nodePort (e.g., 30080) to access the Nginx service externally:
+2. Use the node's IP address and the specified nodePort (e.g., 30080) to access the Nginx service externally: === CHECK THIS
     ```
     http://<node_ip>:30080
     ```
