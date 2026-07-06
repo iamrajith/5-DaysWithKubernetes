@@ -165,7 +165,7 @@ spec:
   ```
 Apply the change:
 ```
-kubectl apply -f nginx-service.yaml
+kubectl apply -f nginx-service-2.yaml
 ```
 
 ### Testing the Deployment and Service
