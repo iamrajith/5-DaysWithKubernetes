@@ -100,8 +100,8 @@ spec:
     - protocol: TCP
       port: 80
       targetPort: 80
-  # Specify the nodePort (e.g., 30080) to expose the service externally
-  nodePort: 30080
+      # Specify the nodePort (e.g., 30080) to expose the service externally
+      nodePort: 30080
 ```
 
 Apply the NodePort Service:
