@@ -76,7 +76,7 @@ kubectl apply -f nginx-service.yaml
     ```
     kubectl exec -it busybox -- sh
     curl nginx-service
-    # Expected output: The HTML content of the Nginx webpage
+    # Expected output: The HTML content of the Nginx webpage ==TEST THIS AGAIN
     ```
 
 3. Delete the busybox pod:
