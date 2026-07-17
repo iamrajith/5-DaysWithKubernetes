@@ -17,6 +17,8 @@ Each participant gets a namespace based on their ID (`user01`, `user02`, etc.):
 
 ```bash
 kubectl create namespace ingress-labXX 
+```
+```bash
 kubectl config set-context --current --namespace=ingress-labXX
 ```
 
@@ -28,6 +30,9 @@ kubectl config view --minify | grep namespace:
 
 ---
 
+```bash
+vi app-deploy.yaml
+```
 ## 📂 Step 2: Deploy Application (`app-deploy.yaml`)
 ```yaml
 apiVersion: apps/v1
@@ -59,6 +64,11 @@ kubectl apply -f app-deploy.yaml
 ---
 
 ## 🌐 Step 3: Service (`app-service.yaml`)
+
+```bash
+vi app-service.yaml
+```
+
 ```yaml
 apiVersion: v1
 kind: Service
@@ -80,6 +90,10 @@ kubectl apply -f app-service.yaml
 ---
 
 ## 🛠️ Step 4: Ingress Resource (`app-ingress.yaml`)
+
+```bash
+vi app-ingress.yaml
+```
 Each participant uses a **unique host** (`appXX.lab`) to avoid conflicts:
 
 ```yaml
@@ -130,6 +144,10 @@ kubectl apply -f app-ingress.yaml
 
 ## 🛠️ Step 5: Deploy Additional Apps
 
+```bash
+vi app2-deploy.yaml
+```
+
 ### `app2-deploy.yaml`
 ```yaml
 apiVersion: apps/v1
@@ -164,6 +182,9 @@ spec:
     targetPort: 80
 ```
 
+```bash
+vi app3-deploy.yaml
+```
 ### `app3-deploy.yaml`
 ```yaml
 apiVersion: apps/v1
