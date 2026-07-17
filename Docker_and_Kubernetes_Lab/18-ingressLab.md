@@ -166,7 +166,7 @@ spec:
     spec:
       containers:
       - name: app2
-        image: nginx
+        image: nginxdemos/hello
         ports:
         - containerPort: 80
 ---
@@ -203,7 +203,7 @@ spec:
     spec:
       containers:
       - name: app3
-        image: nginx
+        image: caddy:latest
         ports:
         - containerPort: 80
 ---
