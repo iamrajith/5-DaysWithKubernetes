@@ -49,6 +49,9 @@ spec:
 
 ```bash
 kubectl apply -f quota.yaml
+```
+
+```bash
 kubectl describe quota compute-quota -n resources-labXX
 ```
 
@@ -91,6 +94,9 @@ spec:
 
 ```bash
 kubectl apply -f limitrange.yaml
+```
+
+```bash
 kubectl describe limitrange default-limits -n resources-labXX
 ```
 
@@ -134,7 +140,13 @@ spec:
 
 ```bash
 kubectl apply -f cpu-stress.yaml
+```
+
+```bash 
 kubectl get pods -n resources-labXX
+```
+
+```bash 
 kubectl top pod -n resources-labXX
 ```
 
@@ -180,7 +192,12 @@ spec:
 
 ```bash
 kubectl apply -f memory-stress.yaml
+```
+```bash
 kubectl get pods -n resources-labXX
+```
+
+```bash
 kubectl describe pod -n resources-labXX
 ```
 
