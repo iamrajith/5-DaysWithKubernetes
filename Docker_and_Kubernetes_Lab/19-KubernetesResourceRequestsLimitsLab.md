@@ -28,6 +28,10 @@ kubectl config view --minify | grep namespace:
 
 ## 2️⃣ Apply ResourceQuota
 
+```bash
+vi quota.yaml
+```
+
 **quota.yaml**
 ```yaml
 apiVersion: v1
@@ -63,6 +67,10 @@ Resource Quotas
 
 ## 3️⃣ Apply LimitRange
 
+```bash
+vi limitrange.yaml
+```
+
 **limitrange.yaml**
 ```yaml
 apiVersion: v1
@@ -89,6 +97,10 @@ kubectl describe limitrange default-limits -n resources-labXX
 ---
 
 ## 4️⃣ CPU Stress Deployment
+
+```bash
+vi cpu-stress.yaml
+```
 
 **cpu-stress.yaml**
 ```yaml
@@ -131,6 +143,10 @@ kubectl top pod -n resources-labXX
 ---
 
 ## 5️⃣ Memory Stress Deployment
+
+```bash
+vi memory-stress.yaml
+```
 
 **memory-stress.yaml**
 ```yaml
@@ -202,5 +218,15 @@ Together, they **protect cluster stability** by:
 - Ensuring fair resource distribution across teams.  
 - Allowing scheduler to make predictable placement decisions.  
 - Avoiding node crashes due to uncontrolled memory usage.  
+
+---
+
+---
+
+## 🔚 Cleanup
+
+```bash
+kubectl delete namespace resources-labXX
+```
 
 ---
