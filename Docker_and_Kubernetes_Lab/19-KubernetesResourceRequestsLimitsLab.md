@@ -125,6 +125,7 @@ spec:
       containers:
       - name: stress
         image: polinux/stress
+        command: ["stress"]
         args: ["--cpu", "4", "--timeout", "60s"]
         resources:
           requests:
@@ -163,6 +164,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: memory-stress
+  namespace: resources-lab01
 spec:
   replicas: 1
   selector:
@@ -176,7 +178,12 @@ spec:
       containers:
       - name: stress
         image: polinux/stress
-        args: ["--vm", "2", "--vm-bytes", "512M", "--timeout", "60s"]
+        command: ["/bin/sh", "-c"]
+        args:
+          - |
+            stress --vm 1 --vm-bytes 200M --vm-hang 120 &
+            sleep 60
+            stress --vm 1 --vm-bytes 200M --vm-hang 120
         resources:
           requests:
             cpu: "100m"
