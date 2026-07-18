@@ -38,7 +38,6 @@ apiVersion: v1
 kind: ResourceQuota
 metadata:
   name: compute-quota
-  namespace: resources-labXX
 spec:
   hard:
     requests.cpu: "2"
@@ -80,7 +79,6 @@ apiVersion: v1
 kind: LimitRange
 metadata:
   name: default-limits
-  namespace: resources-labXX
 spec:
   limits:
   - default:
@@ -114,7 +112,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: cpu-stress
-  namespace: resources-labXX
 spec:
   replicas: 1
   selector:
@@ -166,7 +163,6 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: memory-stress
-  namespace: resources-labXX
 spec:
   replicas: 1
   selector:
