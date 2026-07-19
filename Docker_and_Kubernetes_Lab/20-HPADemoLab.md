@@ -80,7 +80,7 @@ kubectl apply -f hpa-deploy.yaml
 ```bash
 kubectl expose deployment hpa-demo \
   --type=NodePort \
-  --port=80 \
+  --port=80 
 ```
 
 ---
@@ -115,7 +115,7 @@ spec:
 
 ```bash
 kubectl apply -f hpa.yaml
-kubectl get hpa -n hpa-lab
+kubectl get hpa 
 ```
 
 Expected output:
@@ -134,8 +134,11 @@ Use `kubectl run` with busybox to send requests:
 kubectl run -i --tty load-generator --rm \
   --image=busybox \
   --restart=Never \
-  -n hpa-lab -- /bin/sh
+ -- /bin/sh
+```
 
+
+```bash
 # Inside the pod:
 while true; do wget -q -O- http://hpa-demo:80; done
 ```
@@ -147,7 +150,7 @@ while true; do wget -q -O- http://hpa-demo:80; done
 ## 7️⃣ Observe Autoscaling
 
 ```bash
-kubectl get hpa -n hpa-lab --watch
+kubectl get hpa --watch
 ```
 
 Expected output:
