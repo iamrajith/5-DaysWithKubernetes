@@ -37,6 +37,10 @@ It runs a simple HTTP server that burns CPU when you hit `/` with requests — p
 
 ## 3️⃣ Deployment Definition
 
+```bash
+vi hpa-deploy.yaml
+```
+
 **hpa-deploy.yaml**
 ```yaml
 apiVersion: apps/v1
@@ -82,6 +86,10 @@ kubectl expose deployment hpa-demo \
 ---
 
 ## 5️⃣ Create HPA
+
+```bash
+vi hpa.yaml
+```
 
 **hpa.yaml**
 ```yaml
