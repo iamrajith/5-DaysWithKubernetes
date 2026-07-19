@@ -45,12 +45,7 @@ echo "source <(kubectl completion bash)" >> ~/.bashrc
 
 ### 4. Install WeaveNet CNI
 
-WeaveNet is a popular Container Network Interface (CNI) plugin for Kubernetes. It provides networking between pods across different nodes in the cluster.
-
-Execute the following command to apply the WeaveNet CNI configuration:
-```bash
-kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
-```
+This part is excluded as the CNI is already installed during the master node setup.
 
 ### 5. Verify Node Status
 

@@ -91,7 +91,7 @@ sudo tee /etc/apt/sources.list.d/kubernetes.list
 ### Install Kubernetes Binaries
 ```bash
 apt update
-apt install -y kubelet kubeadm kubectl  <----
+apt install -y kubelet kubeadm kubectl  
 apt-mark hold kubelet kubeadm kubectl
 ```
 
@@ -101,8 +101,8 @@ apt-mark hold kubelet kubeadm kubectl
 
 ```bash
 kubeadm init \
---apiserver-advertise-address="172.16.10.4" \
---apiserver-cert-extra-sans="172.16.10.4" \
+--apiserver-advertise-address="172.16.10.<Replace with your IP >" \
+--apiserver-cert-extra-sans="172.16.10.< Replace with your IP >" \
 --node-name master \
 --pod-network-cidr=192.168.0.0/24
 ```
