@@ -97,6 +97,14 @@ apt-mark hold kubelet kubeadm kubectl
 
 ---
 
+## 🔔 **Important Note**
+
+> ⚠️ **Till Step 4, the setup process is identical for both the Master Node (Control Plane) and the Worker Node.**  
+> The difference begins **after Step 4**, where the Master Node runs `kubeadm init` to initialize the control plane, while the Worker Node uses the `kubeadm join` command to connect to the cluster.  
+
+---
+---
+
 ## 📌 5. Initialize Kubernetes Master Node
 
 ```bash
